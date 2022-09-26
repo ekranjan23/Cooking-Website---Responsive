@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html body {
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section1 {
+    height: 60px;
+    background-color: rgb(23, 11, 11);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo>img {
+    border-radius: 50%;
+    margin: 11px 0 0 15px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo>p {
+    color: white;
+    margin: 22px 0 0 20px;
+    font-size: 20px;
+}
+
+.menu>img {
+    margin: 11px 16px 0 0;
+}
+
+.section2 {
+    margin-top: 64px;
+    padding: 0 20px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo>img {
+    border-radius: 50%;
+    margin: 30px 0 0 80px;
+
+
+}
+
+.photo {
+    /* background-color: aquamarine; */
+    width: 50%;
+
+}
+
+.express {
+    /* background-color: blue; */
+
+    margin: 60px 0 0 80px;
+}
+
+.discount>span {
+    height: 30px;
+    background-color: green;
+    color: white;
+    padding: 10px;
+
+}
+
+.heads>h1 {
+
+    margin-top: 15px;
+    font-size: 104px;
+}
+
+.explore {
+    margin-top: 50px;
+
+}
+
+.explore>span {
+
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 314px;
+    margin-top: 80px;
+    /* min-height: 50vh; */
+    margin-bottom: 50px;
+
+}
+
+.card {
+
+    height: 90px;
+
+    width: 254px;
+
+
+}
+
+.card1 {
+    display: flex;
+}
+
+.card2 {
+    display: flex;
+}
+
+.card3 {
+    display: flex;
+}
+
+.text1 {
+    padding: 6px;
+}
+
+.section4 {
+
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.section4>span {
+    background-color: green;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+
+}
+
+.p {
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.section5 {
+
+    margin-bottom: 100px;
+}
+
+.item1 {
+    grid-area: header;
+}
+
+.imgsec1 {
+    display: flex;
+    justify-content: center;
+}
+
+.imgsec2 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imgsec1>img {
+    padding: 0 20px;
+    border-radius: 50px;
+}
+
+.imgsec2>img {
+    padding: 0 20px;
+    border-radius: 50px;
+}
+
+.section6 {
+    /* min-height: 50vh; */
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;
+
+}
+
+.part {
+    /* border: 4px solid red; */
+    width: 500px;
+    margin: 20px;
+
+
+}
+
+.part1 {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* align-self: center; */
+
+}
+
+.imglast>img {
+    border-radius: 50%;
+}
+
+.headers>span {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.part2>h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.part2>p {
+    margin: 8px 0;
+}
+
+
+.part3>h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+
+
+.part3>p {
+    margin: 8px 0;
+}
+
+.part4>h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.part4>input {
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 40px;
+
+}
+
+footer>p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 1332px) {
+
+    .imgsec1,
+    .imgsec2 {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+    .imgsec2>img {
+        margin: 10px 0;
+    }
+
+    .imgsec1>img {
+        margin: 10px 0;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 1097px) {
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 976px) {
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heads>h1 {
+
+        margin-top: 15px;
+        font-size: 50px;
+    }
+
+    .section3 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 976px) {
+
+    .section6 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 692px) {
+
+    .section6 {
+
+        padding: 40px 150px;
+    }
+
+    .photo>img {
+        border-radius: 50%;
+        margin: 10px 0 0 30px;
+
+
+    }
+
+    .section3 {
+        padding: 0 100px;
+        margin-top: 80px;
+
+
+    }
+
+    .section3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
